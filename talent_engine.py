@@ -2,10 +2,12 @@ import pandas as pd
 import requests
 import re
 import os
+import json
 from github import Github
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread
 import numpy as np
+import time
 
 # --- CONFIG ---
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
@@ -19,12 +21,18 @@ creds = ServiceAccountCredentials.from_json_keyfile_name(GOOGLE_CREDS_FILE, scop
 client = gspread.authorize(creds)
 sheet = client.open(GOOGLE_SHEET_NAME).sheet1
 
+# --- EMAIL VALIDATION ---
+def is_valid_email(email):
+    """Validate email format"""
+    if not email:
+        return False
+    
+    email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    return re.match(email_pattern, email) is not None
+
 # --- BULLETPROOF VALUE EXTRACTION ---
 def extract_clean_value(row, column_names):
-    """
-    Absolutely bulletproof value extraction that handles ANY pandas weirdness
-    Returns clean string or None - NEVER returns anything that will cause AttributeError
-    """
+    """Absolutely bulletproof value extraction that handles ANY pandas weirdness"""
     for col_name in column_names:
         if col_name in row.index:
             raw_value = row[col_name]
@@ -90,18 +98,6 @@ def generate_message(name, companies):
     
     return f"""{first_name}! Really inspiring background leading + recruiting top eng talent ({companies_text}). I'm a first-time founder hiring a VP Eng + scaling (building an AI fashion discovery platform $ by Bloomberg Beta, 1517, etc). Would love to learn from you—totally get if now's not a good time!"""
 
-# --- GITHUB EMAIL DISCOVERY ---
-def get_email_from_github(github_username):
-    if not GITHUB_TOKEN:
-        return None
-    
-    try:
-        g = Github(GITHUB_TOKEN)
-        user = g.get_user(github_username)
-        return user.email
-    except:
-        return None
-
 # --- MAIN SCRIPT ---
 def main():
     try:
@@ -112,12 +108,10 @@ def main():
         print(f"📊 Processing {len(df)} rows from CSV")
         print(f"📋 Available columns: {list(df.columns)}")
         
-        successful_rows = 0
+        # Collect all people data first
+        people_data = []
         
         for index in range(len(df)):
-            print(f"\n🔄 Processing row {index + 1}/{len(df)}")
-            
-            # Get the row as a Series
             row = df.iloc[index]
             
             # Extract values with bulletproof method
@@ -126,58 +120,64 @@ def main():
             title = extract_clean_value(row, ['jobTitle', 'title', 'Title', 'position'])
             linkedin = extract_clean_value(row, ['profileUrl', 'linkedin', 'LinkedIn', 'url'])
             
-            # Try to extract work history/companies - ONLY from safe fields
+            # Try to extract work history/companies
             companies = []
-            
-            # Get main company (avoid URL fields)
             current_company = extract_clean_value(row, ['company'])
             if current_company and not current_company.startswith('http'):
                 companies.append(current_company)
             
-            # Get second company if it exists
             company2 = extract_clean_value(row, ['company2']) 
             if (company2 and 
                 not company2.startswith('http') and 
                 company2 not in companies):
                 companies.append(company2)
             
-            print(f"📝 Extracted - Name: '{name}', Company: '{company}', Companies: {companies}")
-            
-            # Skip if missing critical data
-            if not name:
-                print(f"❌ Skipping row {index + 1} - No valid name found")
-                continue
-                
-            if not company:
-                print(f"❌ Skipping row {index + 1} - No valid company found")
+            # Skip if missing critical data or not target title
+            if not name or not company or not is_target_title(title):
                 continue
             
-            # Filter by title - ONLY process target engineering roles
-            if not is_target_title(title):
-                print(f"❌ Skipping row {index + 1} - Title '{title}' is not a target engineering role")
-                continue
-            
-            print(f"✅ Valid data found: {name} at {company}")
-            
-            message = generate_message(name, companies)
-            
-            # Add to Google Sheet
+            people_data.append({
+                'name': name,
+                'company': company,
+                'title': title,
+                'linkedin_url': linkedin,
+                'companies': companies,
+                'row_index': index
+            })
+        
+        print(f"📋 Found {len(people_data)} valid engineering leaders")
+        
+        # Add to Google Sheet
+        print("\n🚀 Adding people to Google Sheets...")
+        successful_rows = 0
+        for person in people_data:
             try:
+                message = generate_message(person['name'], person['companies'])
+                
                 sheet.append_row([
-                    name,
-                    linkedin or "",
-                    title or "",
-                    company,
+                    person['name'],
+                    person.get('linkedin_url', ''),
+                    person.get('title', ''),
+                    person['company'],
                     message,
-                    "Not found"  # Email placeholder
+                    ''  # Empty email column for manual entry later
                 ])
                 successful_rows += 1
-                print(f"✅ Added {name} to Google Sheet")
+                print(f"✅ Added {person['name']} to Google Sheet")
                 
             except Exception as e:
-                print(f"❌ Failed to add {name} to Google Sheet: {e}")
+                print(f"❌ Failed to add {person['name']} to Google Sheet: {e}")
         
-        print(f"\n🎉 Completed! Successfully processed {successful_rows} rows")
+        # Summary
+        print(f"\n📊 FINAL RESULTS:")
+        print(f"   📄 Added to Google Sheet: {successful_rows}")
+        print(f"   📝 Email column left blank for manual entry")
+        
+        # Save detailed results
+        with open('processed_results.json', 'w') as f:
+            json.dump(people_data, f, indent=2)
+        
+        print(f"   💾 Detailed results saved to 'processed_results.json'")
         
     except FileNotFoundError:
         print(f"❌ CSV file '{PHANTOMBUSTER_CSV}' not found")

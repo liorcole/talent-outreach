@@ -1,0 +1,913 @@
+[
+  {
+    "name": "Sibo Liu",
+    "company": "Uber",
+    "title": "Engineering Manager II",
+    "linkedin_url": "https://www.linkedin.com/in/sibo-liu-76185a59/",
+    "companies": [
+      "Uber",
+      "Tencent Cloud"
+    ],
+    "row_index": 0,
+    "email": null
+  },
+  {
+    "name": "Aarathi Vidyasagar",
+    "company": "Uber",
+    "title": "Vice President of Engineering & Science",
+    "linkedin_url": "https://www.linkedin.com/in/aarathividyasagar/",
+    "companies": [
+      "Uber",
+      "LinkedIn"
+    ],
+    "row_index": 4,
+    "email": null
+  },
+  {
+    "name": "Biswanath Panda",
+    "company": "Uber",
+    "title": "Vice President of Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/biswanath-panda-2883822/",
+    "companies": [
+      "Uber",
+      "Snap Inc."
+    ],
+    "row_index": 5,
+    "email": null
+  },
+  {
+    "name": "Danny Guo",
+    "company": "Uber",
+    "title": "Vice President of Engineering and Science",
+    "linkedin_url": "https://www.linkedin.com/in/dannyguo/",
+    "companies": [
+      "Uber",
+      "Facebook"
+    ],
+    "row_index": 11,
+    "email": null
+  },
+  {
+    "name": "Adam Morgenlender",
+    "company": "Uber",
+    "title": "Director, Product Management - Ads",
+    "linkedin_url": "https://www.linkedin.com/in/adammorgenlender/",
+    "companies": [
+      "Uber",
+      "Amazon"
+    ],
+    "row_index": 12,
+    "email": null
+  },
+  {
+    "name": "Rossi R.",
+    "company": "Uber",
+    "title": "Director of Engineering, Payments Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/rossi-r-a7857646/",
+    "companies": [
+      "Uber",
+      "Primary Venture Partners"
+    ],
+    "row_index": 15,
+    "email": null
+  },
+  {
+    "name": "Jason Pearlman",
+    "company": "Uber",
+    "title": "Senior Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/jasonpearlman1/",
+    "companies": [
+      "Uber",
+      "LTK"
+    ],
+    "row_index": 17,
+    "email": null
+  },
+  {
+    "name": "Deepen Mathur",
+    "company": "Uber",
+    "title": "Director, Global driver and courier operations",
+    "linkedin_url": "https://www.linkedin.com/in/deepen-mathur-6b363b17/",
+    "companies": [
+      "Uber",
+      "OYO"
+    ],
+    "row_index": 25,
+    "email": null
+  },
+  {
+    "name": "Sandeep Agarwal",
+    "company": "Uber",
+    "title": "Director Of Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/sandeep-agarwal-349a121/",
+    "companies": [
+      "Uber",
+      "Games24x7"
+    ],
+    "row_index": 28,
+    "email": null
+  },
+  {
+    "name": "A.J. Greulich",
+    "company": "Uber",
+    "title": "Global Director of Design & Construction I People and Places",
+    "linkedin_url": "https://www.linkedin.com/in/ajgreulich/",
+    "companies": [
+      "Uber",
+      "Mid-Atlantic Chapter - CoreNet Global"
+    ],
+    "row_index": 33,
+    "email": null
+  },
+  {
+    "name": "Oren Zamir",
+    "company": "Uber",
+    "title": "Sr Director of Engineering, Marketplace",
+    "linkedin_url": "https://www.linkedin.com/in/zamiroren/",
+    "companies": [
+      "Uber",
+      "TrueMedia.org"
+    ],
+    "row_index": 37,
+    "email": null
+  },
+  {
+    "name": "Kelly L.",
+    "company": "Uber",
+    "title": "Chief of Staff to the VP of Delivery Engineering & Science",
+    "linkedin_url": "https://www.linkedin.com/in/kglui/",
+    "companies": [
+      "Uber",
+      "Status Effect Games, Inc."
+    ],
+    "row_index": 38,
+    "email": null
+  },
+  {
+    "name": "Sivan Hermon",
+    "company": "Uber",
+    "title": "Director of Engineering, Grocery Consumer Experience",
+    "linkedin_url": "https://www.linkedin.com/in/sivan/",
+    "companies": [
+      "Uber",
+      "Sivan Hermon Consulting"
+    ],
+    "row_index": 39,
+    "email": null
+  },
+  {
+    "name": "Vincent Z.",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/vincentz/",
+    "companies": [
+      "Uber",
+      "FortifID, Inc."
+    ],
+    "row_index": 40,
+    "email": null
+  },
+  {
+    "name": "Rishi Ved",
+    "company": "Uber",
+    "title": "Engineering Manager, Uber Ads",
+    "linkedin_url": "https://www.linkedin.com/in/rishived/",
+    "companies": [
+      "Uber",
+      "Amazon"
+    ],
+    "row_index": 45,
+    "email": null
+  },
+  {
+    "name": "Kiran V.",
+    "company": "Uber",
+    "title": "Senior Director",
+    "linkedin_url": "https://www.linkedin.com/in/kiran-v-4030bb2/",
+    "companies": [
+      "Uber",
+      "Wonderschool"
+    ],
+    "row_index": 47,
+    "email": null
+  },
+  {
+    "name": "Jason Mikami",
+    "company": "Uber",
+    "title": "Director, Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/jasonmikami/",
+    "companies": [
+      "Uber",
+      "Mikami Vineyards"
+    ],
+    "row_index": 48,
+    "email": null
+  },
+  {
+    "name": "Andrew Stevens",
+    "company": "Uber",
+    "title": "Senior Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/a-g-stevens/",
+    "companies": [
+      "Uber",
+      "Drizly, an Uber Company"
+    ],
+    "row_index": 50,
+    "email": null
+  },
+  {
+    "name": "Pranav Tiwary",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/pranavtiwary/",
+    "companies": [
+      "Uber",
+      "Paytm"
+    ],
+    "row_index": 52,
+    "email": null
+  },
+  {
+    "name": "Shefali Budhraja",
+    "company": "Uber",
+    "title": "Sr. Director, People Partners",
+    "linkedin_url": "https://www.linkedin.com/in/shefali-budhraja-1b75671/",
+    "companies": [
+      "Uber",
+      "Eat Just, Inc."
+    ],
+    "row_index": 55,
+    "email": null
+  },
+  {
+    "name": "Andy Webb",
+    "company": "Uber",
+    "title": "Sr Director, Global Marketing Channels",
+    "linkedin_url": "https://www.linkedin.com/in/andrewswebb/",
+    "companies": [
+      "Uber",
+      "Gopuff"
+    ],
+    "row_index": 57,
+    "email": null
+  },
+  {
+    "name": "Suganya Ramachandran",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/suganyaramachandran/",
+    "companies": [
+      "Uber",
+      "VMware"
+    ],
+    "row_index": 60,
+    "email": null
+  },
+  {
+    "name": "Ilya Uts",
+    "company": "Uber",
+    "title": "Engineering Manager II",
+    "linkedin_url": "https://www.linkedin.com/in/ilyauts/",
+    "companies": [
+      "Uber",
+      "JPMorganChase"
+    ],
+    "row_index": 62,
+    "email": null
+  },
+  {
+    "name": "Jennifer Rakow",
+    "company": "Uber",
+    "title": "Director, Global Talent Acquisition @ Uber Freight",
+    "linkedin_url": "https://www.linkedin.com/in/jrakow/",
+    "companies": [
+      "Uber",
+      "Confidential/Start ups"
+    ],
+    "row_index": 67,
+    "email": null
+  },
+  {
+    "name": "Calvin Worsnup",
+    "company": "Uber",
+    "title": "Engineering Manager II - Infrastructure Demand and Planning",
+    "linkedin_url": "https://www.linkedin.com/in/cworsnup/",
+    "companies": [
+      "Uber",
+      "Blackboard"
+    ],
+    "row_index": 73,
+    "email": null
+  },
+  {
+    "name": "Xinli shang",
+    "company": "Uber",
+    "title": "Senior Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/xinli-shang-2479863/",
+    "companies": [
+      "Uber",
+      "The Apache Software Foundation"
+    ],
+    "row_index": 80,
+    "email": null
+  },
+  {
+    "name": "Neeraj Garg",
+    "company": "Uber",
+    "title": "Director of Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/gargneeraj/",
+    "companies": [
+      "Uber",
+      "Meta"
+    ],
+    "row_index": 82,
+    "email": null
+  },
+  {
+    "name": "Niels Leth Gammelgaard",
+    "company": "Uber",
+    "title": "Director of Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/gammelgaard/",
+    "companies": [
+      "Uber",
+      "Reshape Biotech"
+    ],
+    "row_index": 85,
+    "email": null
+  },
+  {
+    "name": "Karthik Karuppaiya",
+    "company": "Uber",
+    "title": "Sr. Engineering Manager, Fulfillment Foundations",
+    "linkedin_url": "https://www.linkedin.com/in/karthikkrk/",
+    "companies": [
+      "Uber",
+      "Amazon Web Services (AWS)"
+    ],
+    "row_index": 91,
+    "email": null
+  },
+  {
+    "name": "Christine Stout",
+    "company": "Uber",
+    "title": "Sr Director, HR & Executive Talent",
+    "linkedin_url": "https://www.linkedin.com/in/christinestoutsphr/",
+    "companies": [
+      "Uber",
+      "Phase2"
+    ],
+    "row_index": 92,
+    "email": null
+  },
+  {
+    "name": "Lee Rudolph",
+    "company": "Uber",
+    "title": "Vice President of Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/leerudolph/",
+    "companies": [
+      "Uber",
+      "AT&T"
+    ],
+    "row_index": 102,
+    "email": null
+  },
+  {
+    "name": "Praveen Subramani",
+    "company": "Uber",
+    "title": "Director of Product Management",
+    "linkedin_url": "https://www.linkedin.com/in/psubramani/",
+    "companies": [
+      "Uber",
+      "Turo"
+    ],
+    "row_index": 108,
+    "email": null
+  },
+  {
+    "name": "Peter Kim",
+    "company": "Instagram",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/peter-kim-80654016/",
+    "companies": [
+      "Instagram",
+      "Uber"
+    ],
+    "row_index": 116,
+    "email": null
+  },
+  {
+    "name": "Jeff Harrison MBA, LEED, WELL",
+    "company": "Uber",
+    "title": "Director The America's Workplace Operations",
+    "linkedin_url": "https://www.linkedin.com/in/jeffreyaharrison1/",
+    "companies": [
+      "Uber",
+      "McKesson"
+    ],
+    "row_index": 121,
+    "email": null
+  },
+  {
+    "name": "Eric Gomke",
+    "company": "Uber",
+    "title": "Director - Head of Global Revenue Accounting",
+    "linkedin_url": "https://www.linkedin.com/in/eric-gomke-84b47b5/",
+    "companies": [
+      "Uber",
+      "Icontrol Networks"
+    ],
+    "row_index": 124,
+    "email": null
+  },
+  {
+    "name": "Namit Jain",
+    "company": "Uber",
+    "title": "Snr Director, Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/namit-jain-5a00681/",
+    "companies": [
+      "Uber",
+      "Cohesity"
+    ],
+    "row_index": 139,
+    "email": null
+  },
+  {
+    "name": "William Len",
+    "company": "World global financial",
+    "title": "Independent Contractor",
+    "linkedin_url": "https://www.linkedin.com/in/williamlen/",
+    "companies": [
+      "World global financial",
+      "Silicon Valley Cambodian American Cultural Advocates"
+    ],
+    "row_index": 140,
+    "email": null
+  },
+  {
+    "name": "Niraj Patel",
+    "company": "Uber",
+    "title": "Sr. Director, Rider & Airport Operations",
+    "linkedin_url": "https://www.linkedin.com/in/nirajapatel/",
+    "companies": [
+      "Uber",
+      "Bain & Company"
+    ],
+    "row_index": 141,
+    "email": null
+  },
+  {
+    "name": "Marvin Ferreira, MSc.",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/marvinferreira/",
+    "companies": [
+      "Uber",
+      "Pontif\u00edcia Universidade Cat\u00f3lica de S\u00e3o Paulo"
+    ],
+    "row_index": 142,
+    "email": null
+  },
+  {
+    "name": "Bernardo M.",
+    "company": "Uber",
+    "title": "Director, Head of Global Operations Compliance, Ethics and Compliance",
+    "linkedin_url": "https://www.linkedin.com/in/bernardomontufar/",
+    "companies": [
+      "Uber",
+      "Citi"
+    ],
+    "row_index": 150,
+    "email": null
+  },
+  {
+    "name": "Juan Pablo Velasquez",
+    "company": "Uber",
+    "title": "Engineering Manager II at Uber",
+    "linkedin_url": "https://www.linkedin.com/in/jpv123/",
+    "companies": [
+      "Uber",
+      "Cornershop by Uber"
+    ],
+    "row_index": 156,
+    "email": null
+  },
+  {
+    "name": "Leo Dilem",
+    "company": "Uber",
+    "title": "Engineering Manager II",
+    "linkedin_url": "https://www.linkedin.com/in/ldilem/",
+    "companies": [
+      "Uber",
+      "Google"
+    ],
+    "row_index": 165,
+    "email": null
+  },
+  {
+    "name": "Shashaank S.",
+    "company": "Uber",
+    "title": "Director of Product Management, Gen AI - Customer Obsession",
+    "linkedin_url": "https://www.linkedin.com/in/shashaanksss/",
+    "companies": [
+      "Uber",
+      "Vokal India"
+    ],
+    "row_index": 166,
+    "email": null
+  },
+  {
+    "name": "Bhavesh Mehta",
+    "company": "Uber",
+    "title": "Senior Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/bhaveshsmehta/",
+    "companies": [
+      "Uber",
+      "Envoq"
+    ],
+    "row_index": 168,
+    "email": null
+  },
+  {
+    "name": "Guy Peterson",
+    "company": "Uber",
+    "title": "Director, Head of Business Development | Autonomous Mobility & Delivery Partnerships",
+    "linkedin_url": "https://www.linkedin.com/in/guypeterson/",
+    "companies": [
+      "Uber",
+      "it's electric"
+    ],
+    "row_index": 190,
+    "email": null
+  },
+  {
+    "name": "Gus Fuldner",
+    "company": "Uber",
+    "title": "SVP, Core Services",
+    "linkedin_url": "https://www.linkedin.com/in/gusfuldner/",
+    "companies": [
+      "Uber",
+      "Club Circle Partners"
+    ],
+    "row_index": 193,
+    "email": null
+  },
+  {
+    "name": "Chiara Bajardi",
+    "company": "Uber",
+    "title": "Senior Designer / Art Director, Uber Advertising",
+    "linkedin_url": "https://www.linkedin.com/in/artybajardi/",
+    "companies": [
+      "Uber",
+      "Cheerful Twentyfirst"
+    ],
+    "row_index": 194,
+    "email": null
+  },
+  {
+    "name": "Kiran Shastri",
+    "company": "Uber",
+    "title": "Director of Engineering",
+    "linkedin_url": "https://www.linkedin.com/in/kshastri/",
+    "companies": [
+      "Uber",
+      "Aspec Scire"
+    ],
+    "row_index": 206,
+    "email": null
+  },
+  {
+    "name": "Anindya Sundar Das",
+    "company": "Uber",
+    "title": "Senior Director, Head of Global Service Design",
+    "linkedin_url": "https://www.linkedin.com/in/anindya-sundar-das-5059b27/",
+    "companies": [
+      "Uber",
+      "COO - CK Birla Healthcare"
+    ],
+    "row_index": 240,
+    "email": null
+  },
+  {
+    "name": "Ron Miles",
+    "company": "Uber",
+    "title": "Independent Contractor",
+    "linkedin_url": "https://www.linkedin.com/in/roncmiles-mba-ee/",
+    "companies": [
+      "Uber",
+      "Federal Express Corporation"
+    ],
+    "row_index": 250,
+    "email": null
+  },
+  {
+    "name": "Yan G.",
+    "company": "Uber",
+    "title": "Director - Head of Suburban Sales",
+    "linkedin_url": "https://www.linkedin.com/in/yangud/",
+    "companies": [
+      "Uber",
+      "MasterClass"
+    ],
+    "row_index": 261,
+    "email": null
+  },
+  {
+    "name": "Jeremy Frank",
+    "company": "Uber",
+    "title": "Director of Product Management",
+    "linkedin_url": "https://www.linkedin.com/in/jnfrank/",
+    "companies": [
+      "Uber",
+      "Google"
+    ],
+    "row_index": 262,
+    "email": null
+  },
+  {
+    "name": "Claudia Babescu",
+    "company": "Uber",
+    "title": "Engineering Manager II, Developer Platform",
+    "linkedin_url": "https://www.linkedin.com/in/cbabescu/",
+    "companies": [
+      "Uber",
+      "Morgan Stanley"
+    ],
+    "row_index": 263,
+    "email": null
+  },
+  {
+    "name": "Tomasz Krawczyk",
+    "company": "Uber",
+    "title": "Senior Director, Head of Global Community Operations Programs, Innovation and Customer Advocacy",
+    "linkedin_url": "https://www.linkedin.com/in/tomasz-krawczyk-3590701/",
+    "companies": [
+      "Uber",
+      "Charles Schwab"
+    ],
+    "row_index": 264,
+    "email": null
+  },
+  {
+    "name": "Meeta Roy",
+    "company": "Uber",
+    "title": "Chief of Staff, Office of the CTO",
+    "linkedin_url": "https://www.linkedin.com/in/meetaroy/",
+    "companies": [
+      "Uber",
+      "San Jos\u00e9 State University"
+    ],
+    "row_index": 265,
+    "email": null
+  },
+  {
+    "name": "Rahul Goel",
+    "company": "Uber",
+    "title": "Director, Security Assurance",
+    "linkedin_url": "https://www.linkedin.com/in/rahul-goel-a50b951/",
+    "companies": [
+      "Uber",
+      "KPMG"
+    ],
+    "row_index": 275,
+    "email": null
+  },
+  {
+    "name": "Santhosh Desikachari",
+    "company": "Uber",
+    "title": "Engineering Manager II",
+    "linkedin_url": "https://www.linkedin.com/in/santhoshdesikachari/",
+    "companies": [
+      "Uber",
+      "fifthnote-An Ensemble Health Partners Company"
+    ],
+    "row_index": 277,
+    "email": null
+  },
+  {
+    "name": "Chandra Mouli Parameswaran",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/chandramouli-parameswaran/",
+    "companies": [
+      "Uber",
+      "Amazon"
+    ],
+    "row_index": 281,
+    "email": null
+  },
+  {
+    "name": "Karthik Ramakrishnan",
+    "company": "Uber",
+    "title": "Senior Engineering Manager - Uber Ads",
+    "linkedin_url": "https://www.linkedin.com/in/karthik-ramakrishnan-b19b0a5/",
+    "companies": [
+      "Uber",
+      "Coinbase"
+    ],
+    "row_index": 284,
+    "email": null
+  },
+  {
+    "name": "Nishant .",
+    "company": "Uber",
+    "title": "Senior Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/nishant-8419291/",
+    "companies": [
+      "Uber",
+      "Startups"
+    ],
+    "row_index": 290,
+    "email": null
+  },
+  {
+    "name": "Jason Wang",
+    "company": "Uber",
+    "title": "Engineering Manager II",
+    "linkedin_url": "https://www.linkedin.com/in/jason-wang-a92a29b/",
+    "companies": [
+      "Uber",
+      "Forma.ai"
+    ],
+    "row_index": 291,
+    "email": null
+  },
+  {
+    "name": "Nikhilesh Gargi",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/nikhilgargi/",
+    "companies": [
+      "Uber",
+      "Amazon Web Services (AWS)"
+    ],
+    "row_index": 294,
+    "email": null
+  },
+  {
+    "name": "Mads Villadsen",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/madsvilladsen/",
+    "companies": [
+      "Uber",
+      "GitHub"
+    ],
+    "row_index": 296,
+    "email": null
+  },
+  {
+    "name": "Malavika Lakireddy",
+    "company": "Uber",
+    "title": "Global Director of Product Management",
+    "linkedin_url": "https://www.linkedin.com/in/malareddy/",
+    "companies": [
+      "Uber"
+    ],
+    "row_index": 299,
+    "email": null
+  },
+  {
+    "name": "Luis Vasquez",
+    "company": "Uber",
+    "title": "Independent Contractor",
+    "linkedin_url": "https://www.linkedin.com/in/luis-vasquez-2bb12499/",
+    "companies": [
+      "Uber",
+      "Lyft"
+    ],
+    "row_index": 303,
+    "email": null
+  },
+  {
+    "name": "Jane Lee",
+    "company": "Uber",
+    "title": "Director of Product Operations",
+    "linkedin_url": "https://www.linkedin.com/in/jane-lee-6021b254/",
+    "companies": [
+      "Uber",
+      "PwC"
+    ],
+    "row_index": 316,
+    "email": null
+  },
+  {
+    "name": "Lucinda Barlow",
+    "company": "Uber",
+    "title": "Senior Director, Head of International Marketing (APAC, EMEA, Latin America)",
+    "linkedin_url": "https://www.linkedin.com/in/lucindabarlow/",
+    "companies": [
+      "Uber",
+      "YouTube"
+    ],
+    "row_index": 317,
+    "email": null
+  },
+  {
+    "name": "Rajesh Kumar",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/rajesh210687/",
+    "companies": [
+      "Uber",
+      "PW (PhysicsWallah)"
+    ],
+    "row_index": 328,
+    "email": null
+  },
+  {
+    "name": "Kirti Varun Avasarala",
+    "company": "Uber",
+    "title": "Director of Product Management",
+    "linkedin_url": "https://www.linkedin.com/in/kirtivarun/",
+    "companies": [
+      "Uber",
+      "Self"
+    ],
+    "row_index": 330,
+    "email": null
+  },
+  {
+    "name": "Ashish Batra",
+    "company": "Uber",
+    "title": "Director",
+    "linkedin_url": "https://www.linkedin.com/in/ashishbatra1212/",
+    "companies": [
+      "Uber",
+      "Cognizant"
+    ],
+    "row_index": 338,
+    "email": null
+  },
+  {
+    "name": "Noam Ben-Haim",
+    "company": "Uber",
+    "title": "Director of Product Management",
+    "linkedin_url": "https://www.linkedin.com/in/noambenhaim/",
+    "companies": [
+      "Uber",
+      "Wenrix"
+    ],
+    "row_index": 361,
+    "email": null
+  },
+  {
+    "name": "Anshuman Kishore Pandey",
+    "company": "Uber",
+    "title": "Engineering Manager",
+    "linkedin_url": "https://www.linkedin.com/in/anshumanpandey/",
+    "companies": [
+      "Uber",
+      "Google"
+    ],
+    "row_index": 388,
+    "email": null
+  },
+  {
+    "name": "Jayaram Valliyur",
+    "company": "Uber",
+    "title": "Senior Director - Core Technology | India Tech Leadership Team",
+    "linkedin_url": "https://www.linkedin.com/in/jayaram-valliyur-65ba401/",
+    "companies": [
+      "Uber",
+      "Amazon"
+    ],
+    "row_index": 410,
+    "email": null
+  },
+  {
+    "name": "R\u00e9gis Hasl\u00e9",
+    "company": "Uber",
+    "title": "Senior Director, Europe-Middle-East-Africa Community Operations",
+    "linkedin_url": "https://www.linkedin.com/in/regishasle/",
+    "companies": [
+      "Uber",
+      "Areva"
+    ],
+    "row_index": 433,
+    "email": null
+  },
+  {
+    "name": "Juan Pablo Medel",
+    "company": "Uber",
+    "title": "Sr. Director Customer Operations Latin America",
+    "linkedin_url": "https://www.linkedin.com/in/jpmc1/",
+    "companies": [
+      "Uber",
+      "MetLife"
+    ],
+    "row_index": 444,
+    "email": null
+  },
+  {
+    "name": "Fabiola Segura Espinosa",
+    "company": "Uber",
+    "title": "LATAM Director Central Enablement",
+    "linkedin_url": "https://www.linkedin.com/in/fabiola-segura-espinosa/",
+    "companies": [
+      "Uber",
+      "American Express"
+    ],
+    "row_index": 512,
+    "email": null
+  }
+]
